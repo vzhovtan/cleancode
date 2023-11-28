@@ -1,1 +1,1 @@
-### Collection of code snippets for different tasks from LeetCode
+### Collection of code snippets prepared for NetOps classes using some exercises from LeetCode
