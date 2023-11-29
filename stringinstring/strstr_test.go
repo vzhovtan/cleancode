@@ -1,4 +1,4 @@
-package string_in_string
+package stringinstring
 
 import (
 	"bytes"
