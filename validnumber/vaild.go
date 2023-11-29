@@ -1,3 +1,4 @@
+//Package validnumber is verifying if the provided string is valid decimal number
 package validnumber
 
 import (

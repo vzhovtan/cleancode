@@ -1,3 +1,4 @@
+//Package twosum returns indexes of two slice elements which sum equal to given key
 package twosum
 
 import (
@@ -6,7 +7,6 @@ import (
 	"os"
 )
 
-// return indexes of two slice elements which sum equal to given key
 // hasmap approach
 func twoSum(w io.Writer, alist []int, akey int) {
 	amap := map[int]int{}
@@ -25,7 +25,6 @@ func twoSum(w io.Writer, alist []int, akey int) {
 	}
 }
 
-// return indexes of two sorted slice elements which sum equal to given key
 // two pointers approach
 func twoSumSorted(w io.Writer, alist []int, akey int) {
 	res := []string{}

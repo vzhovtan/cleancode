@@ -1,4 +1,5 @@
-package palindrom
+//Package paindrome is finding if the given string is valid palindrom with two pointers.
+package palindrome
 
 import (
 	"fmt"
@@ -8,7 +9,6 @@ import (
 	"unicode"
 )
 
-// finding if the given string is valid palindrom with two pointers
 func palindrome(w io.Writer, astring string) {
 	var b strings.Builder
 	for _, r := range astring {

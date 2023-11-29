@@ -1,3 +1,4 @@
+//Package stringinstring finds pattern in text and print index for each instance using naive methods with 2 pointers
 package stringinstring
 
 import (
@@ -6,7 +7,6 @@ import (
 	"os"
 )
 
-// find pattern in text and print index for each instance. naive methods with 2 pointers
 func strInStr(w io.Writer, txt, pat string) {
 	var ind string
 	var res []string

@@ -1,3 +1,4 @@
+//Package atoi returns the string converted to a decimal integer
 package atoi
 
 import (

@@ -1,4 +1,4 @@
-package palindrom
+package palindrome
 
 import (
 	"bytes"
