@@ -4,7 +4,6 @@ package twosum
 import (
 	"fmt"
 	"io"
-	"os"
 )
 
 // hasmap approach
@@ -47,8 +46,5 @@ func twoSumSorted(w io.Writer, alist []int, akey int) {
 }
 
 func main() {
-	akey := 7
-	alist := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
-	twoSum(os.Stdout, alist, akey)
-	twoSumSorted(os.Stdout, alist, akey)
+
 }

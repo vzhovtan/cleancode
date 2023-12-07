@@ -4,7 +4,6 @@ package validnumber
 import (
 	"fmt"
 	"io"
-	"os"
 	"unicode"
 )
 
@@ -21,7 +20,5 @@ func valid(w io.Writer, inp string) {
 }
 
 func main() {
-	valid(os.Stdout, "1213")
-	valid(os.Stdout, "121.3")
-	valid(os.Stdout, "12abc")
+
 }

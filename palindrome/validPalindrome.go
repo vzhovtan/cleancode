@@ -1,10 +1,9 @@
-//Package paindrome is finding if the given string is valid palindrom with two pointers.
+// Package palindrome is finding if the given string is valid palindrom with two pointers
 package palindrome
 
 import (
 	"fmt"
 	"io"
-	"os"
 	"strings"
 	"unicode"
 )
@@ -31,6 +30,5 @@ func palindrome(w io.Writer, astring string) {
 }
 
 func main() {
-	astring := "A man, a plan, a canal: Panama"
-	palindrome(os.Stdout, astring)
+
 }

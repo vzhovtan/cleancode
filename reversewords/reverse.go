@@ -4,7 +4,6 @@ package reversewords
 import (
 	"fmt"
 	"io"
-	"os"
 	"strings"
 )
 
@@ -39,7 +38,5 @@ func reverseOnePass(w io.Writer, inp string) {
 }
 
 func main() {
-	inp := "the sky is blue"
-	reverseNaive(os.Stdout, inp)
-	reverseOnePass(os.Stdout, inp)
+
 }

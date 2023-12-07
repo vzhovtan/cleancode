@@ -4,7 +4,6 @@ package stringinstring
 import (
 	"fmt"
 	"io"
-	"os"
 )
 
 func strInStr(w io.Writer, txt, pat string) {
@@ -43,7 +42,5 @@ func strInStr(w io.Writer, txt, pat string) {
 }
 
 func main() {
-	txt := "abracadabra"
-	pat := "ab"
-	strInStr(os.Stdout, txt, pat)
+
 }
