@@ -16,7 +16,7 @@ func TestPushPop(t *testing.T) {
 	for _, tt := range tests {
 		testname := fmt.Sprintf("%v, %v", tt.ip, tt.ot)
 		t.Run(testname, func(t *testing.T) {
-			st := Stack{}
+			st := stack{}
 			got := []int{}
 			for _, v := range tt.ip {
 				st.push(v)

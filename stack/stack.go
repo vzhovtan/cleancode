@@ -6,11 +6,11 @@ type stackNode struct {
 	next *stackNode
 }
 
-type Stack struct {
+type stack struct {
 	head *stackNode
 }
 
-func (s *Stack) push(val int) {
+func (s *stack) push(val int) {
 	newNode := &stackNode{
 		val: val,
 	}
@@ -22,14 +22,13 @@ func (s *Stack) push(val int) {
 	}
 }
 
-func (s *Stack) pop() int {
+func (s *stack) pop() int {
 	if s.head == nil {
 		return -1
-	} else {
-		elem := s.head.val
-		s.head = s.head.next
-		return elem
 	}
+	elem := s.head.val
+	s.head = s.head.next
+	return elem
 }
 
 func main() {
