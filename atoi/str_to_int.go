@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"os"
 	"strconv"
 	"unicode"
 )
@@ -36,7 +35,4 @@ func atoi(w io.Writer, inp string) {
 }
 
 func main() {
-	atoi(os.Stdout, "1213")
-	atoi(os.Stdout, "12130000000")
-	atoi(os.Stdout, "12abc")
 }

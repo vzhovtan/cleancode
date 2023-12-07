@@ -1,7 +1,5 @@
 package longest2chars
 
-import "fmt"
-
 func long2c(inp string) int {
 	max := 0
 	cnt := map[rune]int{}
@@ -27,5 +25,4 @@ func long2c(inp string) int {
 }
 
 func main() {
-	fmt.Println(long2c("abaac"))
 }

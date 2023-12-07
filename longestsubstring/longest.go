@@ -1,9 +1,5 @@
 package longestsubstring
 
-import (
-	"fmt"
-)
-
 func longest(inp string) int {
 	hash := map[rune]int{}
 	head := 0
@@ -21,6 +17,4 @@ func longest(inp string) int {
 }
 
 func main() {
-	astr := "abcabcbb"
-	fmt.Println(longest(astr))
 }

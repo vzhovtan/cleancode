@@ -40,6 +40,4 @@ func getRange(start, end int) string {
 }
 
 func main() {
-	in := []int{0, 1, 3, 5, 66, 89}
-	fmt.Println(findMissing(in))
 }
